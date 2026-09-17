@@ -1,0 +1,25 @@
+prm-rank-banner:
+  forum:
+    rank_banner_label: "{name} rütbesi"
+
+  admin:
+    title: Rütbeler
+    help: Her grubun rütbe banner’ını buradan yönet. Varsayılan stil ikon + renk + isim kullanır; istersen XenForo gibi yatay bir görsel de yükleyebilirsin.
+    show_label: Forumda göster
+    style_label: Banner stili
+    style_default: Varsayılan (ikon + yazı)
+    style_image: Özel görsel
+    name_label: Rütbe adı
+    color_label: Renk
+    icon_label: İkon
+    icon_help: "Font Awesome sınıfı, örn. fas fa-star"
+    label_label: Banner yazısı
+    label_help: Boş bırakırsan rütbe adı kullanılır.
+    image_label: Yatay banner görseli
+    image_help: PNG, JPG, GIF veya WEBP. En fazla 1 MB. Şeffaf PNG önerilir.
+    upload_button: Görsel yükle
+    remove_image_button: Görseli kaldır
+    save_button: Kaydet
+    saved: Kaydedildi
+    preview_label: Önizleme
+    guest_note: Ziyaretçi grubu banner olarak gösterilmez.

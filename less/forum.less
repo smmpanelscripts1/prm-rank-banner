@@ -1,0 +1,92 @@
+.PostUser-badges,
+.UserCard-badges {
+  display: none !important;
+}
+
+.PostUser {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.RankBanners {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  margin-top: 5px;
+  line-height: 1;
+}
+
+.PostUser-ranks {
+  margin-top: 4px;
+}
+
+.UserCard-profile {
+  .UserCard-identity {
+    display: block;
+  }
+
+  .UserCard-ranks {
+    margin-top: 8px;
+    margin-bottom: 2px;
+  }
+}
+
+.UserCard--popover .UserCard-ranks {
+  margin-top: 6px;
+}
+
+.RankBanner {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  max-width: 100%;
+  padding: 3px 8px;
+  border-radius: 3px;
+  background: var(--rank-bg, #4b5563);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+  white-space: nowrap;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.12);
+}
+
+.RankBanner.text-contrast--dark {
+  color: #111;
+}
+
+.RankBanner.text-contrast--light {
+  color: #fff;
+}
+
+.RankBanner-icon {
+  font-size: 11px;
+  width: 1em;
+  text-align: center;
+}
+
+.RankBanner-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.RankBanner--image {
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+
+  img {
+    display: block;
+    height: 22px;
+    width: auto;
+    max-width: 180px;
+  }
+}
+
+@media @phone {
+  .PostUser-ranks {
+    margin-top: 6px;
+  }
+}
