@@ -1,0 +1,47 @@
+{
+    "name": "prm/rank-banner",
+    "description": "XenForo-style horizontal rank banners under usernames.",
+    "type": "flarum-extension",
+    "version": "2.0.0",
+    "keywords": ["flarum", "rank", "banner", "group"],
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^2.0.0-rc.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Prm\\RankBanner\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Rank Banner",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-id-badge",
+                "backgroundColor": "#1b4f72",
+                "color": "#fff"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": true,
+                "forum": true,
+                "js": true,
+                "jsCommon": false,
+                "css": true,
+                "locale": true,
+                "gitConf": false,
+                "githubActions": false,
+                "prettier": false,
+                "typescript": false,
+                "bundlewatch": false,
+                "backendTesting": false,
+                "editorConfig": false,
+                "styleci": false
+            }
+        }
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true
+}
